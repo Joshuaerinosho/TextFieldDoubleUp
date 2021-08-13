@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: TextField(
               controller: _controller,
               onChanged: (value) {
-                print('you ${value}');
+                print(value);
               },
             ),
           ),
